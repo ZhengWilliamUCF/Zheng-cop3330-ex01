@@ -18,8 +18,7 @@ public class App {
 
     public String readName() {
         System.out.print("What is your name? ");
-        String name = in.nextLine();
-        return name;
+        return in.nextLine();
     }
 
     public String generateOutputString(String name){
